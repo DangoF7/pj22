@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+   <center>
+      <Button fx:id="plane" defaultButton="true" graphicTextGap="0.0" mnemonicParsing="false" text="飞机大战" textAlignment="CENTER" textFill="#1a10d7" BorderPane.alignment="TOP_CENTER">
+         <BorderPane.margin>
+            <Insets top="150.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+
+      </Button>
+
+   </center>
+</BorderPane>
